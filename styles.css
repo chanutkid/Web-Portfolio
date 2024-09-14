@@ -209,12 +209,6 @@ header.sticky {
 .skill-body {
   background: var(--second-bg-color);
 }
-
-.skill-text {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
 .skill-body h2 {
   font-size: 36px;
 }
@@ -235,18 +229,42 @@ header.sticky {
 
 .skill-program {
   padding-left: 50px;
+  display: flex;
+  gap: 15px;
 }
-
 .skill-tools {
   padding-left: 50px;
+  display: flex;
+  gap: 15px;
 }
-
 .skill-personal {
   padding-left: 50px;
+  display: flex;
+  gap: 15px;
 }
-
 .skill-body p {
   line-height: 2;
+}
+.skill-text h4 {
+  margin-left: 2rem;
+}
+.skill-icon-box {
+  width: 60px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.tool-icon-box {
+  width: 60px;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 .work-body h2 {
@@ -302,6 +320,7 @@ header.sticky {
 
 .contact-body {
   padding: 50px 50px;
+  background-color: var(--second-bg-color);
 }
 
 .contact-icons {
@@ -352,6 +371,17 @@ header.sticky {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+.certification-body h2 {
+  font-size: 36px;
+}
+.cer-img-box {
+  margin: 2rem;
+}
+.cer-img-1 img {
+  width: 400px;
+  height: 300px;
 }
 
 @media (max-width: 430px) {
