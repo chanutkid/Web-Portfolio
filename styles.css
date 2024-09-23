@@ -278,11 +278,10 @@ header.sticky {
 
 .work-box {
   width: 300px;
-  height: 350px;
+  height: 380px;
   border-radius: 20px;
   border: 3px solid white;
   display: grid;
-  grid-template-rows: 0.8fr 0.1fr 0.2fr;
   justify-content: center;
   align-items: center;
   transition: 0.8s ease;
@@ -293,6 +292,7 @@ header.sticky {
   justify-content: center;
   color: #8b8a91;
   margin: 0px 30px;
+  margin-bottom: 1rem;
 }
 
 .work-box:hover {
